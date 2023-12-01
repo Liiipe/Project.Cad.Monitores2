@@ -9,7 +9,6 @@ import Ouvintes.OuvinteDaTeclaEnter;
 import Ouvintes.OuvinteRecuperSenhas;
 import Ouvintes.OuvinteTelaLogin;
 import Repositorio.Componentes;
-import telas.TelaDeLogin;
 
 
 public class TelaLogin extends TelaPadrao {
@@ -79,7 +78,8 @@ public class TelaLogin extends TelaPadrao {
 		this.prosseguir = prosseguir;
 	}
 	public static void main(String[] args) {
-		new TelaDeLogin();
+		//Aqui tava criando errado
+		new TelaLogin();
 
 	}
 	
