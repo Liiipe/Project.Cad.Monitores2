@@ -75,7 +75,7 @@ public abstract class Componentes {
 			return texto;
 		}
 	
-	/*public static JMenu addJmenu(JFrame tela, JMenuBar menuBar, String txt, int x, int y, int comprimento, int altura) {
+	public static JMenu addJmenu1(JFrame tela, JMenuBar menuBar, String txt, int x, int y, int comprimento, int altura) {
 		menuBar = new JMenuBar();
 		tela.setJMenuBar(menuBar);
 		JMenu menu = new JMenu(txt);
@@ -87,7 +87,7 @@ public abstract class Componentes {
 		menuBar.add(menu);
 
 		return menu;
-	}*/
+	}
 	// CRIAR JMENUITEM:
 		public static JMenuItem addMenuItem(JMenu menu, String txt) {
 			JMenuItem menuItem = new JMenuItem(txt);
